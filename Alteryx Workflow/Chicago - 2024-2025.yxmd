@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\sanja\Downloads\Chicago_2024-2025.tsv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>\t</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Chicago_2024-2025.tsv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection ID" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="DBA Name" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="AKA Name" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="License #" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Facility Type" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Risk" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Address" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Inspection Date" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Inspection Type" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Results" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Violations" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+            <Field name="Location" size="254" source="File: C:\Users\sanja\Downloads\Chicago_2024-2025.tsv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sanja\AppData\Local\Temp\Alteryx\Engine_21544_4a9dd0e5573c4806b70e0286264a1c51_\Engine_21544_61bdbdd392e04b9c9b55ec4f377d16f6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Chicago - 2024-2025</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="16ebcbc6-766b-4de4-9a29-c09b094c3e19" />
+      <Telemetry>
+        <PreviousWorkflowId value="825c4782-466a-46e1-a826-4a36828a8522" />
+        <OriginWorkflowId value="825c4782-466a-46e1-a826-4a36828a8522" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

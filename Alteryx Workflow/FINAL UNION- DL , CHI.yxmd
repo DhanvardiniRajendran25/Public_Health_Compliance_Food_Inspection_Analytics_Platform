@@ -1,0 +1,580 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2024.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CHICAGO_FINAL.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="DBA_Name" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="AKA_Name" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="License_No" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Facility_Type" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Address" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="City" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="State" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Date" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Type" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Results" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Location" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Violation_Comments" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Violation_Category_ID" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Violation_Category" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Risk_Level" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Risk_Category" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Violation_Score" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Result_Score" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Risk_Score" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Total_Violation_Score" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Result" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="DateTime_Out" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Load_Date" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\FoodInspection_FinalProject\DALLAS_FINAL.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>DALLAS_FINAL.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Restaurant_Name" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Type" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Date" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Score" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Street_Number" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Street_Name" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Street_Direction" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Street_Type" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Street_Unit" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Street_Address" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Zip_Code" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Month " size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Year" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Lat_Long_Loc" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_ID" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Name" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Value" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Violation1" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Violation_Point" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Violation_Others" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Violation_Category_ID" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Violation_Category" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Latitude" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Longitude" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="City" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="State" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Facility_Type" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Sum_Violation_Point" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Risk_Category" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Result" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="174" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="Inspection_ID" selected="True" />
+            <Field field="DBA_Name" selected="True" />
+            <Field field="AKA_Name" selected="True" />
+            <Field field="License_No" selected="True" />
+            <Field field="Facility_Type" selected="True" />
+            <Field field="Address" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Zip" selected="True" />
+            <Field field="Inspection_Date" selected="True" />
+            <Field field="Inspection_Type" selected="True" />
+            <Field field="Results" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="Location" selected="True" />
+            <Field field="Violation_Comments" selected="True" />
+            <Field field="Violation_Category_ID" selected="True" />
+            <Field field="Violation_Category" selected="True" />
+            <Field field="Risk_Level" selected="True" />
+            <Field field="Risk_Category" selected="True" />
+            <Field field="Violation_Score" selected="True" />
+            <Field field="Result_Score" selected="True" />
+            <Field field="Risk_Score" selected="True" />
+            <Field field="Total_Violation_Score" selected="True" />
+            <Field field="Inspection_Result" selected="True" />
+            <Field field="DateTime_Out" selected="True" />
+            <Field field="Load_Date" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Inspection_ID" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Int32" />
+            <Field name="DBA_Name" size="57" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="AKA_Name" size="57" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="License_No" size="7" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="String" />
+            <Field name="Facility_Type" size="38" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Address" size="51" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="City" size="15" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="State" size="2" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="String" />
+            <Field name="Zip" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Int32" />
+            <Field name="Inspection_Date" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Date" />
+            <Field name="Inspection_Type" size="38" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Results" size="20" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Latitude" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Double" />
+            <Field name="Longitude" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Double" />
+            <Field name="Location" size="40" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="String" />
+            <Field name="Violation_Comments" size="254" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Violation_Category_ID" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Int16" />
+            <Field name="Violation_Category" size="93" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="Risk_Level" size="2" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="String" />
+            <Field name="Risk_Category" size="6" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="String" />
+            <Field name="Violation_Score" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Byte" />
+            <Field name="Result_Score" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Byte" />
+            <Field name="Risk_Score" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Byte" />
+            <Field name="Total_Violation_Score" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Byte" />
+            <Field name="Inspection_Result" size="17" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="V_String" />
+            <Field name="DateTime_Out" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="Date" />
+            <Field name="Load_Date" size="19" source="File: D:\FoodInspection_FinalProject\CHICAGO_FINAL.csv" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="186" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="RecordID" selected="True" />
+            <Field field="Restaurant_Name" selected="True" />
+            <Field field="Inspection_Type" selected="True" />
+            <Field field="Inspection_Date" selected="True" />
+            <Field field="Inspection_Score" selected="True" />
+            <Field field="Street_Number" selected="True" />
+            <Field field="Street_Name" selected="True" />
+            <Field field="Street_Direction" selected="True" />
+            <Field field="Street_Type" selected="True" />
+            <Field field="Street_Unit" selected="True" />
+            <Field field="Street_Address" selected="True" />
+            <Field field="Zip_Code" selected="True" />
+            <Field field="Inspection_Month " selected="True" />
+            <Field field="Inspection_Year" selected="True" />
+            <Field field="Lat_Long_Loc" selected="True" />
+            <Field field="Inspection_ID" selected="True" />
+            <Field field="Name" selected="True" />
+            <Field field="Value" selected="True" />
+            <Field field="Violation1" selected="True" />
+            <Field field="Violation_Point" selected="True" />
+            <Field field="Violation_Others" selected="True" />
+            <Field field="Violation_Category_ID" selected="True" />
+            <Field field="Violation_Category" selected="True" />
+            <Field field="Latitude" selected="True" />
+            <Field field="Longitude" selected="True" />
+            <Field field="City" selected="True" />
+            <Field field="State" selected="True" />
+            <Field field="Facility_Type" selected="True" />
+            <Field field="Sum_Violation_Point" selected="True" />
+            <Field field="Risk_Category" selected="True" />
+            <Field field="Inspection_Result" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Int32" />
+            <Field name="Restaurant_Name" size="65" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_Type" size="9" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Inspection_Date" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Date" />
+            <Field name="Inspection_Score" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Byte" />
+            <Field name="Street_Number" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Int32" />
+            <Field name="Street_Name" size="25" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Street_Direction" size="2" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Street_Type" size="4" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Street_Unit" size="5" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Street_Address" size="37" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Zip_Code" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Int32" />
+            <Field name="Inspection_Month " size="8" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Inspection_Year" size="6" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Lat_Long_Loc" size="73" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Inspection_ID" size="9" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Name" size="11" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Value" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Violation1" size="102" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Violation_Point" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Byte" />
+            <Field name="Violation_Others" size="254" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Violation_Category_ID" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Int16" />
+            <Field name="Violation_Category" size="98" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+            <Field name="Latitude" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Double" />
+            <Field name="Longitude" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Double" />
+            <Field name="City" size="6" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="State" size="2" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Facility_Type" size="9" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Sum_Violation_Point" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="Byte" />
+            <Field name="Risk_Category" size="6" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="String" />
+            <Field name="Inspection_Result" size="17" source="File: D:\FoodInspection_FinalProject\DALLAS_FINAL.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="282" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Inspection_ID" selected="True" />
+            <SelectField field="DBA_Name" selected="True" rename="Name" size="16777216" />
+            <SelectField field="Facility_Type" selected="True" />
+            <SelectField field="Address" selected="True" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="State" selected="True" />
+            <SelectField field="Zip" selected="True" rename="Zip_Code" type="Int64" size="8" />
+            <SelectField field="Inspection_Date" selected="True" />
+            <SelectField field="Inspection_Type" selected="True" />
+            <SelectField field="Latitude" selected="True" />
+            <SelectField field="Longitude" selected="True" />
+            <SelectField field="Violation_Category_ID" selected="True" rename="Violation_Category_Id" type="Int64" size="8" />
+            <SelectField field="Violation_Category" selected="True" size="134" />
+            <SelectField field="Risk_Category" selected="True" />
+            <SelectField field="Violation_Score" selected="True" type="Int64" size="8" />
+            <SelectField field="Total_Violation_Score" selected="True" type="Int64" size="8" />
+            <SelectField field="Inspection_Result" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="RecordID" selected="False" />
+            <SelectField field="Restaurant_Name" selected="True" rename="Name" />
+            <SelectField field="Inspection_Score" selected="True" rename="Total_Violation_Score" />
+            <SelectField field="Street_Number" selected="False" />
+            <SelectField field="Street_Name" selected="False" />
+            <SelectField field="Street_Direction" selected="False" />
+            <SelectField field="Street_Type" selected="False" />
+            <SelectField field="Street_Unit" selected="False" />
+            <SelectField field="Street_Address" selected="True" rename="Address" />
+            <SelectField field="Inspection_Month " selected="False" />
+            <SelectField field="Inspection_Year" selected="False" />
+            <SelectField field="Lat_Long_Loc" selected="False" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Value" selected="False" />
+            <SelectField field="Violation1" selected="False" />
+            <SelectField field="Violation_Point" selected="False" />
+            <SelectField field="Violation_Others" selected="False" />
+            <SelectField field="Sum_Violation_Point" selected="True" rename="Violation_Score" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="402" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="546" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sanja\AppData\Local\Temp\Alteryx\Engine_14024_4901492055e1406eb66569e42a5626ab_\Engine_14024_5a5e3b355b7a4e2e81801748794bc454~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="186" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sanja\AppData\Local\Temp\Alteryx\Engine_14024_4901492055e1406eb66569e42a5626ab_\Engine_14024_ccc2f757c19e4146809d7c45a3ef2af8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\sanja\AppData\Local\Temp\Alteryx\Engine_14024_4901492055e1406eb66569e42a5626ab_\Engine_14024_654f15fd16d64d90bef2c7d29bd87879~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="546" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File />
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions UseDcm="true" Format="19" MaxRecords="">
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>FINAL UNION- DL , CHI</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="eabcfb28-74a0-4665-a956-603e6153eb7d" />
+      <Telemetry>
+        <PreviousWorkflowId value="ac617930-d5e5-44cd-8565-21c303e3c5de" />
+        <OriginWorkflowId value="ac617930-d5e5-44cd-8565-21c303e3c5de" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

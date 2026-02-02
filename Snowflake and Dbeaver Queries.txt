@@ -1,0 +1,61 @@
+
+SNOWFLAKE CONNECTIONS :
+
+
+--Creating a warehouse, database, schema and role
+create or replace warehouse Final_Project warehouse_size = 'XSMALL';
+
+create or replace database Food_Insepction_Data;
+
+create or replace schema Food_Insepction_Data.Inspection_Schema;
+
+create or replace role Role1;
+
+--Grant access permissions to the role on the created warehouse, database and schema
+--First take the ownership on the DB to which you want to manage so you can grant permissions
+
+grant ownership on database Food_Insepction_Data to role ACCOUNTADMIN;
+
+--Warehouse
+GRANT USAGE ON WAREHOUSE Final_Project TO ROLE Role1;
+
+--DATABASE
+GRANT USAGE ON DATABASE Food_Insepction_Data TO ROLE Role1;
+
+--SCHEMA 
+GRANT OWNERSHIP ON SCHEMA Food_Insepction_Data.Inspection_Schema TO ROLE Role1;
+grant usage on schema Food_Insepction_Data.Inspection_Schema to role Role1;
+
+--Creating user and assigning warehouse ans role
+create or replace user User1 password = 'snowflake123#' default_role = Role1 default_warehouse = Final_Project;
+
+--if we forgot to specify default role and warehouse for a user then we can grant them access using below commands:
+grant role Role1 to user User1;
+grant warehouse Final_Project to user User1;
+
+
+GRANT ROLE Role1 TO ROLE ACCOUNTADMIN;
+
+SELECT * FROM FOOD_INSPECTIONS_STAGE;
+
+
+--> DEBEAVER QUERY FOR STAGE TABLE
+CREATE OR REPLACE TABLE FOOD_INSPECTIONS_STAGE (
+    Name                   STRING,
+    Inspection_Type        STRING,
+    Inspection_Date        DATE,
+    Total_Violation_Score  INT,
+    Address                STRING,
+    Zip_Code               INT,
+    Inspection_ID          STRING,
+    Violation_Category_ID  INT,
+    Violation_Category     STRING,
+    Latitude               DOUBLE,
+    Longitude              DOUBLE,
+    City                   STRING,
+    State                  STRING,
+    Facility_Type          STRING,
+    Violation_Score        INT,
+    Risk_Category          STRING,
+    Inspection_Result      STRING
+);
