@@ -1,0 +1,32 @@
+# ===============================
+# Large datasets / generated data
+# ===============================
+Data/
+dataset/
+Chicago Dataset/
+Dallas Dataset/
+Data Profiling- Chicago/
+Data Profiling-Dallas/
+data-profiling/
+data-transformation/
+data-visualization/
+
+# Backup files
+*.bak
+*.tmp
+
+# BI files
+*.pbix
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
