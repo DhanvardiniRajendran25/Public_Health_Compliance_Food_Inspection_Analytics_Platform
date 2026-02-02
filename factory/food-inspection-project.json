@@ -1,0 +1,9 @@
+{
+	"name": "food-inspection-project",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8f21d187-2bec-44d5-97d6-e2b448811c9d",
+		"tenantId": "a8eec281-aaa3-4dae-ac9b-9a398b9215e7"
+	}
+}

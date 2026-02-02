@@ -1,0 +1,30 @@
+{
+	"name": "triggerDataCleanPl",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pl_data_cleaning",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 1,
+				"startTime": "2025-04-18T04:24:00",
+				"endTime": "2025-04-26T04:24:00",
+				"timeZone": "Eastern Standard Time",
+				"schedule": {
+					"monthDays": [
+						30
+					]
+				}
+			}
+		}
+	}
+}

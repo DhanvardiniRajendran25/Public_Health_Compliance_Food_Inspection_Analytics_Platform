@@ -1,0 +1,341 @@
+{
+	"name": "chicago_parquet_silver",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FoodInspectionDL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "silver"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "restaurant_name",
+				"type": "UTF8"
+			},
+			{
+				"name": "inspection_type",
+				"type": "UTF8"
+			},
+			{
+				"name": "inspection_score",
+				"type": "INT32"
+			},
+			{
+				"name": "inspection_date",
+				"type": "DATE"
+			},
+			{
+				"name": "zipcode",
+				"type": "INT32"
+			},
+			{
+				"name": "street_address",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description1",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description2",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description3",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description4",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description5",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description6",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description7",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description8",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description9",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description10",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description11",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description12",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description13",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description14",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description15",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description16",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description17",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description18",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description19",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description20",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description21",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description22",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description23",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description24",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_description25",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail1",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail2",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail3",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail4",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail5",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail6",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail7",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail8",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail9",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail10",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail11",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail12",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail13",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail14",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail15",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail16",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail17",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail18",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail19",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail20",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail21",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail22",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail23",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail24",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_detail25",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo1",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo2",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo3",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo4",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo5",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo6",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo7",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo8",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo9",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo10",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo11",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo12",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo13",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo14",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo15",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo16",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo17",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo18",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo19",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo21",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo22",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo23",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo24",
+				"type": "UTF8"
+			},
+			{
+				"name": "violation_memo25",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
